@@ -10,7 +10,7 @@ import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.transforms.ToString;
 
-public class kata_pardo_solution {
+public class kata_pardo {
 
   public static void main(String[] args) {
     PipelineOptions options = PipelineOptionsFactory.fromArgs(args).create();
