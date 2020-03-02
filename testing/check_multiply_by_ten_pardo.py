@@ -7,7 +7,7 @@ def check_multiply_by_ten_pardo():
 	#print(set_of_answers)
 	set_in_file = set()
 
-	with open('../multiply_by_ten_pardo-00000-of-00001.txt') as f:
+	with open('/home/intro-beam-katacoda/multiply_by_ten_pardo-00000-of-00001.txt') as f:
 		for line in f:
 			set_in_file.add(line.strip())
 
